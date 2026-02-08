@@ -4,6 +4,20 @@ return {
 	-- mason package manager for lsp
 	{ "mason-org/mason.nvim", opts = {} },
 	{ "williamboman/mason-lspconfig.nvim" }, -- THIS ONE IS LIKELY MISSING
+
+	-- Popular Colorschemes
+	{ "morhetz/gruvbox" },
+	{ "folke/tokyonight.nvim" },
+	{ "catppuccin/nvim", name = "catppuccin" },
+	{ "rebelot/kanagawa.nvim" },
+	{ "EdenEast/nightfox.nvim" },
+	{ "sainnhe/everforest" },
+	{ "rose-pine/neovim", name = "rose-pine" },
+	{ "arcticicestudio/nord-vim" },
+	{ "dracula/vim", name = "dracula" },
+	{ "joshdick/onedark.vim" },
+
+
 	-- Auto Complete
 	{
 		"saghen/blink.cmp",
@@ -19,6 +33,7 @@ return {
         opts = {
             -- 'default' (recommended) for mappings similar to built-in completions (C-y to accept)
             -- 'super-tab' for mappings similar to VSCode (tab to accept)
+---@type vim
             -- 'enter' for enter to accept
             -- 'none' for no mappings
             --
